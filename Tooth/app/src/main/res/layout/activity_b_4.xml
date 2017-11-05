@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pt_bg"/>
+
+    <ImageView
+        android:layout_width="900px"
+        android:layout_height="900px"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="218px"
+        android:id="@+id/iv_main"
+        android:scaleType="fitXY"
+        android:src="@drawable/pt_no"/>
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="900px"
+        android:layout_height="120px"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="1365px"
+        android:inputType="textPersonName"
+        android:text="투뜨"
+        android:textAlignment="center"
+        android:ems="10"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:layout_width="800px"
+        android:layout_height="170px"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="1814px"
+        android:id="@+id/btn_1"
+        android:background="@drawable/pt_btn_1_on"/>
+
+    <Button
+        android:layout_width="800px"
+        android:layout_height="170px"
+        android:layout_marginLeft="400px"
+        android:layout_marginTop="2110px"
+        android:id="@+id/btn_2"
+        android:background="@drawable/pt_btn_2_on"/>
+
+
+</RelativeLayout>
